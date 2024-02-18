@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="209dp"
+            android:layout_height="43dp"
+            android:layout_weight="1"
+            android:background="@color/verdeAcuoso"
+            android:maxWidth="20sp"
+            android:maxHeight="20sp"
+            android:paddingLeft="4dp"
+            android:src="@mipmap/eye_foreground" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Explore"
+            android:background="@color/verdeAcuoso"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:padding="8sp"/>
+
+        <ImageView
+            android:layout_width="209dp"
+            android:layout_height="43dp"
+            android:layout_weight="1"
+            android:background="@color/verdeAcuoso"
+            android:maxWidth="20sp"
+            android:maxHeight="20sp"
+            android:paddingEnd="4dp"
+            android:src="@mipmap/camera_foreground" />
+
+    </LinearLayout>
+
+    <EditText
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:textColor="@color/grisLetra"
+        android:text="Search people or tags"
+        android:textSize="16sp"
+        android:layout_margin="4dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:padding="8sp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/star"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Popular Now"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:padding="8sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:padding="8sp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/up"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="On the Rise"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:padding="8sp"/>
+
+    </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Channels"
+        android:layout_weight="1"
+        android:textColor="@color/grisLetra"
+        android:textAlignment="center"
+        android:textSize="18sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:padding="10sp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="209dp"
+            android:layout_height="43dp"
+            android:layout_weight="1"
+            android:background="@color/comedy"
+            android:maxWidth="20sp"
+            android:maxHeight="20sp"
+            android:paddingLeft="4dp"
+            android:src="@mipmap/comedy_foreground" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Comedy"
+            android:textStyle="bold"
+            android:background="@color/comedy"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textAlignment="viewStart"
+            android:padding="8sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:padding="10sp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="209dp"
+            android:layout_height="43dp"
+            android:layout_weight="1"
+            android:background="@color/art"
+            android:maxWidth="20sp"
+            android:maxHeight="20sp"
+            android:paddingLeft="4dp"
+            android:src="@mipmap/art_foreground" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Art & Experimental"
+            android:textStyle="bold"
+            android:background="@color/art"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textAlignment="viewStart"
+            android:padding="8sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:padding="10sp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="209dp"
+            android:layout_height="43dp"
+            android:layout_weight="1"
+            android:background="@color/scary"
+            android:maxWidth="20sp"
+            android:maxHeight="20sp"
+            android:paddingLeft="4dp"
+            android:src="@mipmap/scary_foreground" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Scary"
+            android:textStyle="bold"
+            android:background="@color/scary"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textAlignment="viewStart"
+            android:padding="8sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:padding="10sp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="209dp"
+            android:layout_height="43dp"
+            android:layout_weight="1"
+            android:background="@color/cat"
+            android:maxWidth="20sp"
+            android:maxHeight="20sp"
+            android:paddingLeft="4dp"
+            android:src="@mipmap/cat_foreground" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Cat"
+            android:textStyle="bold"
+            android:background="@color/cat"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textAlignment="viewStart"
+            android:padding="8sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
